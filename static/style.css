@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(135deg, #e9e6a0, #ee989b);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #010a13;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.nav-tabs .nav-item .nav-link {
+    color: #ff002b;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #000000;
+    color: white;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn-primary {
+    background-color: black !important; /* Black button */
+    color: rgb(252, 249, 249) !important; /* Red text */
+    border: none !important;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.3s;
+    display: block; /* Makes it a block element */
+    margin: 20px auto; /* Centers horizontally */
+    text-align: center;
+    width: 50%; /* Adjust width if needed */
+}
+
+.btn-primary:hover {
+    background-color:#ee989b !important; /* Darker black on hover */
+    color: #0f0f0f !important; /* Lighter red on hover */
+}
+#result, #dropoutResult, #studyResult {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.text-success {
+    color: rgb(76, 45, 231);
+}
+
+.text-warning {
+    color: orange;
+}
+
+.text-info {
+    color: rgb(0, 0, 0);
+}
